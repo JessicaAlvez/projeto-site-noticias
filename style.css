@@ -178,6 +178,36 @@ input.submit {
     border-radius: 5px;
 }
 
+/* Lista de Noticias */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a h3 {
+    padding: 0;
+    margin-top: 3px;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a {
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+#lista-noticias li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
 /*Rodapé*/
 
 #container-rodape {
